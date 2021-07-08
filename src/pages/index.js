@@ -1,5 +1,18 @@
 import * as React from "react"
+import { Link } from "gatsby"
+import Layout from "../components/layout"
 
+const IndexPage = () => {
+  return (
+    <Layout pageTitle="Home Page">
+      <p>main page</p>
+    </Layout>
+  )
+}
+
+export default IndexPage
+
+/*
 // styles
 const pageStyles = {
   color: "#232129",
@@ -182,3 +195,4 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+*/
